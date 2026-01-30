@@ -1,0 +1,5 @@
+/.idea/
+/.vite/
+/dist-electron/
+/dist/
+/node_modules/
