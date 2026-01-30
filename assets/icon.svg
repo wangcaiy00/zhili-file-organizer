@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)"/>
+  <!-- 文件夹主体 -->
+  <g transform="translate(80, 120)">
+    <!-- 文件夹背面 -->
+    <path d="M0 60 L0 260 Q0 280 20 280 L332 280 Q352 280 352 260 L352 60 Q352 40 332 40 L140 40 L120 20 Q110 10 95 10 L20 10 Q0 10 0 30 Z" fill="rgba(255,255,255,0.3)"/>
+    <!-- 文件夹前面 -->
+    <path d="M10 100 L10 250 Q10 270 30 270 L322 270 Q342 270 342 250 L342 100 Q342 80 322 80 L30 80 Q10 80 10 100 Z" fill="white"/>
+    <!-- 整理线条 -->
+    <rect x="50" y="120" width="140" height="8" rx="4" fill="#3B82F6"/>
+    <rect x="50" y="150" width="100" height="8" rx="4" fill="#93C5FD"/>
+    <rect x="50" y="180" width="120" height="8" rx="4" fill="#3B82F6"/>
+    <rect x="50" y="210" width="80" height="8" rx="4" fill="#93C5FD"/>
+    <!-- 勾选标记 -->
+    <circle cx="280" cy="180" r="45" fill="#10B981"/>
+    <path d="M255 180 L272 197 L305 163" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- 魔法星星 -->
+  <g fill="#FCD34D">
+    <path d="M420 80 L425 95 L440 100 L425 105 L420 120 L415 105 L400 100 L415 95 Z"/>
+    <path d="M100 60 L103 70 L113 73 L103 76 L100 86 L97 76 L87 73 L97 70 Z"/>
+    <path d="M450 180 L453 188 L461 191 L453 194 L450 202 L447 194 L439 191 L447 188 Z"/>
+  </g>
+</svg>
